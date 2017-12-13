@@ -2,5 +2,7 @@
 #include <GVal.h>
 
 int main() {
-    hello();
+    GVal v("FooBar");
+    std::cout << "v = " << v.asString() << "\n";
+    return 0;
 }
